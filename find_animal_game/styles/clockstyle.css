@@ -1,0 +1,15 @@
+#time {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 45em;
+}
+
+#time a {
+    font-size: 1.5em;
+    text-align: center;
+    background-color: #aed581;
+    padding: 0.5em;
+    margin: 1em 0.5em 0em;
+    border-radius: 0.2em;
+}

@@ -1,0 +1,27 @@
+img {
+    display: block;
+    width: 12em;
+    margin: 1em auto;
+}
+
+table {
+    font-size: 1.5em;
+    border-collapse: collapse;
+    margin: 1em auto 2em;
+    background-color: #ffffff;
+}
+
+th,
+td {
+    min-width: 10em;
+}
+
+tr,
+th,
+td {
+    padding: 0.5em;
+}
+
+.class1 {
+    background-color: #cccccc;
+}

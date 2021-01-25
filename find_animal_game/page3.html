@@ -1,0 +1,37 @@
+<!DOCKTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Уровень 3</title>
+    <link rel='stylesheet' href='styles/clockstyle.css'>
+    <link rel='stylesheet' href='styles/generalstyle.css'>
+    <link rel='stylesheet' href='styles/p3style.css'>
+    <script src="p3js/imgplustext.js"></script>
+</head>
+
+<body id="body">
+    <div id="top-exercise">
+        На прохождение уровня даются 3 попытки. Использовать дополнительные попытки можно до выполнения проверки.
+    </div>
+    <div id="button-box">
+        <div id="time">
+            <a>Осталось времени:
+            <span id="timer"></span>
+            </a>
+        </div>
+        <button onclick="showImg()">Начать</button>
+        <button onclick="checkWords()">Проверить</button>
+    </div>
+    <div id="container">
+        <div id="exercise">Перед вами 9 картинок. Найдите все, в которых буква
+            <br/><span id="symbol"></span> стоит на
+            <span id="symbol-num"></span> месте
+        </div>
+        <div id="pictures-box"></div>
+    </div>
+    <script src="p3js/showimg.js"></script>
+    <script src="p3js/chooseimg.js"></script>
+</body>
+
+</html>

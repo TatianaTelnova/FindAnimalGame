@@ -1,0 +1,35 @@
+<!DOCKTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Главная страница</title>
+    <link rel='stylesheet' href='styles/style.css'>
+</head>
+
+<body id="body">
+    <nav>Find Animals</nav>
+    <main id="main">
+        <div id="content">
+            <div id="rules">
+                В игре 3 уровня, каждый имеет ограничение по времени.
+                <br/>Уровни идут от простого к сложному, время на прохождение каждый раз уменьшается.
+                <br/>Задача - выбрать все элементы, в которых встречается указанная буква русского алфавита.
+                <br/>На прохождение уровня даются 3 попытки.
+                <br/>Чтобы начать заново, нажмите на кнопку "Начать", слова или картинки поменяются.
+                <br/>С каждым разом количество получаемых баллов будет уменьшаться.
+                <br/>Начать уровень повторно после проверки нельзя.
+                <br/>
+                <br/>Удачи!
+                <br/>
+                <input type="text" class="text" placeholder="Введи свое имя" id="name">
+                <button id="start" onclick="startGame()">Начать игру</button>
+                <button id="start" onclick="changeStyle()">Сменить тему</button>
+            </div>
+        </div>
+    </main>
+    <footer>©Telnova Tatiana, 2020</footer>
+    <script src="changestyle.js"></script>
+</body>
+
+</html>
